@@ -1,4 +1,9 @@
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
 header{
+    margin: 0;
     background-color: rgba(128, 0, 128, 0.767);
     display: flex; 
 }
@@ -29,7 +34,6 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 10  px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.068);
     
 }
