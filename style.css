@@ -29,18 +29,29 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 10  px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.068);
+    
 }
+.logo{
+    border-right: 1px solid rgba(0, 0, 0, 0.068);
+    padding-right: 150px;
+}
+
 .navb{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 50px;
+   
 }
 .coworking{
     text-align: center;
     justify-content: center;
     text-align: center;
     display: flex;
+    border-left: 1px solid rgba(0, 0, 0, 0.068);
+    padding-left: 80px;
 }
 a:hover{
     text-decoration: underline black;
