@@ -2,3 +2,6 @@ header{
     background-color: rgba(128, 0, 128, 0.767);
     display: flex; 
 }
+.ph{
+    justify-content: center;
+}
