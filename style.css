@@ -87,7 +87,7 @@ nav{
 .coworking{
     text-align: center;
     justify-content: center;
-    
+    text-align: center;
     display: flex;
     border-left: 1px solid rgba(0, 0, 0, 0.068);
     padding-left: 80px;
@@ -125,18 +125,18 @@ ul li{
     margin-bottom:50px ;
     
 }
-.containerlogo{
-    display: flex;
-    flex-direction: row;
+.containerlogo > div{
+ display: flex;
+  
     padding: 10px;
     margin: 10px;
-    justify-content: center;
-    align-items: center;
+    
     color: white;
     gap: 25px;
-    width: 120px;
-    
-
+        flex-direction: row;
+}
+.containerlogo{
+    display: flex;
 }
 i{
     font-size: 20px;
