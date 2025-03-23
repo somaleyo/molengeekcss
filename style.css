@@ -87,12 +87,13 @@ nav{
 .coworking{
     text-align: center;
     justify-content: center;
-    text-align: center;
+    
     display: flex;
     border-left: 1px solid rgba(0, 0, 0, 0.068);
     padding-left: 80px;
     margin-right: 35px;
     font-size: 14px;
+    text-decoration: none;
 }
 a:hover{
     text-decoration: underline black;
@@ -115,6 +116,7 @@ ul li::marker{
 
 ul li{
     padding: 10px;
+    color:  rgba(0, 0, 0, 0.584); ;
 }
 .hr1{
     background-color: purple;
@@ -137,11 +139,12 @@ ul li{
 
 }
 i{
-    font-size: 14px;
+    font-size: 20px;
     border: 1px solid white;
     border-radius: 50%;
     padding: 10px;
     display: flex;
+    color:  white   ;
 }
 
 .before{
@@ -163,6 +166,7 @@ i{
 .hr2{
     border: solid 1px rgba(128, 128, 128, 0.231);
     width: 100%;
+    margin-bottom: 50px;
 }
 
 p{
@@ -173,4 +177,10 @@ p{
     margin-inline-end: 0px;
     unicode-bidi: isolate;
     color: rgba(0, 0, 0, 0.584);
+}
+.lf{
+    margin-bottom: 25px;
+}
+.reso{
+    color: white;
 }
