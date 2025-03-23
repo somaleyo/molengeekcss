@@ -139,4 +139,27 @@ i{
     border: 1px solid white;
     border-radius: 50%;
     padding: 10px;
+    display: flex;
+}
+
+.before{
+    position: relative;
+}
+
+.before::before{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 20;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.before:hover{
+    text-decoration: none  ;
+}
+.bas{
+    background-color: rgb(137, 132, 132);
+    height: 2px;
+    border: none;
 }
