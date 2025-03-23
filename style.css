@@ -43,15 +43,15 @@ input[placeholder="eMail"]{
  
 }
 h1{
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
     font-size: 40px;
     margin: 24px;
     padding: 25px;
 }
 h2{
-    font-weight: normal;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 
@@ -116,7 +116,7 @@ ul li::marker{
 ul li{
     padding: 10px;
 }
-hr{
+.hr1{
     background-color: purple;
     height: 2px;
     border: none;
@@ -160,10 +160,9 @@ i{
 .before:hover{
     text-decoration: none  ;
 }
-.bas{
-    background-color: rgb(137, 132, 132);
-    height: 2px;
-    border: none;
+.hr2{
+    border: solid 1px rgba(128, 128, 128, 0.231);
+    width: 100%;
 }
 
 p{
