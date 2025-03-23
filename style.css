@@ -37,6 +37,8 @@ input[placeholder="eMail"]{
     margin: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 1rem;
+    line-height: 2.1;
     
  
 }
@@ -162,4 +164,14 @@ i{
     background-color: rgb(137, 132, 132);
     height: 2px;
     border: none;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: rgba(0, 0, 0, 0.584);
 }
